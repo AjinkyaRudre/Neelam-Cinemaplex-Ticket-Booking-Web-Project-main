@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+.AlHiddenDv{
+    display: none; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    /* background-color: blue; */
+}
+.TodayShow,.AvlSeat,.Screen,.BookingForm{
+color: aliceblue;
+margin: 15% 10%;
+background-color: black;
+	padding:50px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+
+.BookingForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+   width: 400px;
+   border-radius: 10px;
+   margin: 12% 35%;
+
+}
+.BookingForm table,td{
+    width: 100%;
+    border: none;
+    
+}
+.BookingForm select{
+    width:200px;
+    height:20px;
+    border-radius: 5px;
+}
+.BookingForm .hiddenTable input,button{
+    border-radius: 5px;
+    margin: 10px;
+}
+.BookingForm .hiddenTable button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
